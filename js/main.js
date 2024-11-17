@@ -13,7 +13,6 @@ $(".product__name").slick({
   slidesToShow: 6,
   slidesToScroll: 1,
   focusOnSelect: true,
-  initialSlide: 4,
   asNavFor: ".product__content",
   vertical: true,
   prevArrow:
