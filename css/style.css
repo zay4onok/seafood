@@ -77,7 +77,7 @@ body {
   background-repeat: no-repeat;
   padding-bottom: 40px;
   margin-top: -110px;
-  min-height: calc(100vh - 35px);
+  height: calc(100vh - 35px);
 }
 
 .title {
@@ -87,9 +87,9 @@ body {
   line-height: 95px;
   color: #001e64;
   max-width: 589px;
-  padding-top: 200px;
+  padding-top: 175px;
   padding-left: 112px;
-  margin-bottom: 125px;
+  margin-bottom: 60px;
 }
 
 .header__slider {
@@ -289,4 +289,35 @@ body {
 
 .product__content-text {
   margin-bottom: 30px;
+}
+
+.advantages {
+  background-image: url(../images/advantages.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 290px 0 95px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.advantages__items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.advantages__item {
+  width: 180px;
+  height: 165px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(../images/seashell.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
