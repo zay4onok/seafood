@@ -285,6 +285,13 @@ body {
   text-transform: uppercase;
   border-radius: 20px;
   border: 1px solid color #001e64;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.product__content-btn:hover {
+  color: #ffffff;
+  background-color: #001e64;
 }
 
 .product__content-text {
@@ -320,4 +327,58 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.seafood__content {
+  padding: 100px 0;
+}
+
+.seafood__content-items {
+  margin-bottom: 100px;
+}
+
+.seafood__content-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.seafood__content-title {
+  max-width: 490px;
+  color: #001e64;
+  margin-bottom: 30px;
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.seafood__content-text {
+  max-width: 420px;
+  margin-bottom: 20px;
+}
+
+.seafood__content-item--text-right .seafood__content-title {
+  max-width: 420px;
+}
+
+.seafood__content-item--text-right .seafood__content-wrapper {
+  margin-right: 180px;
+}
+
+.seafood__content-img {
+}
+
+.seafood__blockquote {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.seafood__blockquote-img {
+}
+
+.seafood__blockquote-text {
+  max-width: 628px;
+  margin: 0 auto;
+  font-size: 18px;
 }

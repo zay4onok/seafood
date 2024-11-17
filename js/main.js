@@ -25,6 +25,6 @@ $(".product__content").slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   asNavFor: ".product__name",
-  fade: true,
+  vertical: true,
   arrows: false,
 });
