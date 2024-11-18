@@ -354,7 +354,11 @@ body {
 
 .seafood__content-text {
   max-width: 420px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+}
+
+.seafood__content-text:last-child {
+  margin: 0;
 }
 
 .seafood__content-item--text-right .seafood__content-title {
@@ -365,20 +369,46 @@ body {
   margin-right: 180px;
 }
 
-.seafood__content-img {
-}
-
 .seafood__blockquote {
   text-align: center;
   margin: 0 auto;
   max-width: 800px;
 }
 
-.seafood__blockquote-img {
-}
-
 .seafood__blockquote-text {
   max-width: 628px;
   margin: 0 auto;
   font-size: 18px;
+}
+.contacts {
+  background-image: url(../images/contacts.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.contacts__box {
+  margin-left: auto;
+  width: 390px;
+  background-color: white;
+  padding: 33px 0 33px 20px;
+}
+.contents__box-text {
+  width: 195px;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #001e64;
+  margin-bottom: 30px;
+}
+.contents__box-list {
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 21px;
+}
+.contents__box-item {
+  margin-top: 30px;
+}
+
+.contents__box-item span {
+  display: block;
 }
