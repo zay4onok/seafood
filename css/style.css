@@ -412,3 +412,47 @@ body {
 .contents__box-item span {
   display: block;
 }
+.footer {
+  padding: 0 0 110px 0;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 45px 0 23px;
+}
+.footer-social__list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 90px;
+}
+.footer-social__item + .footer-social__item {
+  margin-left: 10px;
+}
+
+.footer-social__link path {
+  transition: all 0.3s;
+}
+.footer-social__link:hover path {
+  fill: #001e64;
+}
+
+.footer .menu__list {
+  align-items: flex-start;
+  padding-top: 100px;
+  margin-top: 0;
+}
+
+.footer .menu__link {
+  color: #232222;
+}
+
+.footer .menu__link::after {
+  background-color: #232222;
+}
+
+.footer .logo {
+  margin: 0;
+  padding-top: 25px;
+}
