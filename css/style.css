@@ -495,6 +495,25 @@ body {
   bottom: 13px;
 }
 
+.contacts__img {
+  display: none;
+}
+
+@media (max-width: 1250px) {
+  .contacts {
+    background-image: none;
+  }
+  .contacts__box {
+    width: 100%;
+    padding-left: 0;
+  }
+  .contacts__img {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
 @media (max-width: 1160px) {
   .product__name {
     width: 350px;
@@ -662,6 +681,12 @@ body {
   }
   .product__content-list {
     width: 100%;
+  }
+  .seafood__content {
+    padding: 50px 0;
+  }
+  .seafood__content-items {
+    margin-bottom: 50px;
   }
 }
 
