@@ -538,12 +538,26 @@ body {
   .product__name {
     width: 250px;
   }
-  .saefood__content-wrapper {
-    margin-right: 20px;
+  .seafood__content-wrapper {
+    margin-right: 0px;
+    margin-bottom: 30px;
   }
   .seafood__content-item--text-right .seafood__content-wrapper {
-    margin-left: 20px;
-}
+    margin-left: 0px;
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+  .seafood__content-item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .seafood__content-item--text-right {
+    flex-wrap: wrap-reverse;
+  }
+  .seafood__content-title,
+  .seafood__content-text {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 870px) {
@@ -586,6 +600,12 @@ body {
   .product__name .slick-active button {
     background-color: #001e64;
   }
+  .seafood__content-img {
+    max-width: 100%;
+  }
+  .seafood__blockquote-img {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -600,7 +620,7 @@ body {
     display: block;
   }
   .advantages__item {
-   margin: 0 auto;
+    margin: 0 auto;
   }
 }
 
