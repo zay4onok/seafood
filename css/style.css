@@ -518,6 +518,22 @@ body {
   .product__name {
     width: 350px;
   }
+  .footer .logo,
+  .footer .menu {
+    display: none;
+  }
+  .footer__inner {
+    justify-content: center;
+  }
+  .contacts__box {
+    padding-bottom: 0;
+}
+.footer-social__list {
+  padding-top: 50px;
+}
+.footer {
+  padding-bottom: 50px;
+}
 }
 
 @media (max-width: 1100px) {
