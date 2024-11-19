@@ -538,6 +538,12 @@ body {
   .product__name {
     width: 250px;
   }
+  .saefood__content-wrapper {
+    margin-right: 20px;
+  }
+  .seafood__content-item--text-right .seafood__content-wrapper {
+    margin-left: 20px;
+}
 }
 
 @media (max-width: 870px) {
